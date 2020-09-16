@@ -25,6 +25,6 @@ if __name__ == "__main__":
    
     plt.figure(2)
     plt.title ('Modulo de la DFT de x')
-    plt.plot (np.absolute (Array_x), 'o-', markersize = 2, linewidth = 0.5)
+    plt.plot (np.absolute (Array_x), 'o-', markersize = 2, linewidth = 0)
     plt.xlabel (f'La resolucion de frecuencia es de {fs/(len(Array_x)-1)}Hz entre muestras')
     plt.show()
