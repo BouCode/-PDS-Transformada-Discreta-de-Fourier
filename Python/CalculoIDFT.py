@@ -27,6 +27,6 @@ if __name__ == "__main__":
     plt.title ('Valores imaginarios de la IDFT de X')
     plt.plot (x_2Imag)
     print (f"x_2 Imaginarios{x_2Imag}")
-    #plt.show()
+    plt.show()
 
 
